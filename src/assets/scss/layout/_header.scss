@@ -47,11 +47,15 @@
 			}
 		}
 
+		#logo {
+			width: 100%;
+		}
+
 		.logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
+			//border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
 			.icon {
@@ -104,6 +108,7 @@
 				li {
 					padding-left: 0;
 					border-left: solid _size(border-width) _palette(border);
+					width: 25%;
 
 					&:first-child {
 						border-left: 0;
