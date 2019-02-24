@@ -87,8 +87,6 @@ class Main extends React.Component {
             <li><a href="https://www.facebook.com/ae.gurus" className="icon fa-facebook" target="_blank"><span className="label">Facebook</span></a></li>
             <li><a href="https://www.instagram.com/gurus.ae/" className="icon fa-instagram" target="_blank"><span className="label">Instagram</span></a></li>
             <li><a href="https://www.twitter.com/Gurus_ae" className="icon fa-twitter" target="_blank"><span className="label">Twitter</span></a></li>
-            // <li><a href="https://github.com/gurus-digital" className="icon fa-github" target="_blank"><span className="label">GitHub</span></a></li>
-
           </ul>
           {close}
         </article>
