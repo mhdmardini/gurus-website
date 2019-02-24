@@ -14,30 +14,56 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Digital Business Development</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Tired of agencies talking about awareness efforts as if it is an objective in itself? Businesses are looking for a direct impact on their bottom line, and that is why we are not an agency!</p>
+
+          <p>We “Gurus” work with your leadership team in order to establish your business objectives, and how we can grow your revenue and ROI, We will form a deep understanding of your unique selling points, your sales and value proposition, and we will implement a direct BDM approach, all while working on your Digital Brand Transformation, your Digital Branding, and overall Digital presence.</p>
+
+          <p>This is a comprehensive product, where we will establish or optimize your Digital Brand, create Branded content, while we send an army of virtual business developers to build bridges, mass-networking, and generate quality leads through Linkedin and Google platforms, saving thousands to millions of annual resources and costs, so your leadership can directly connect with potential clients, and convert deals!</p>
+          <p>
+          This product is inclusive of:
+          <ul>
+          <li>Linkedin Business Development</li>
+          <li>Content Creation</li>
+          <li>Digital Branding and Brand Transformation</li>
+          <li>Digital Marketing on all platforms</li>
+          <li>Social Media Management on all platforms</li>
+          <li>Instagram Organic Growth Exclusively by Gurus</li>
+          </ul>
+          </p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>Our Success stories with Businesses in a diversity of industries will be published soon, please check back later. </p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>We are a team of experts, harnessing over a decade of experience, to serve our clients with the best and latest solutions. Through years of practice and numerous collaborations, with a wide range of skills, such as Business Advisory, Comprehensive Digital Marketing, Branding, Business Development, Content Creation, Video Design and Editing, illustration, Content writing, Graphic Design, Community, Growth Hacking, Social media management, printing and production services, and many more.</p>
+          <p>We promise results, and we deliver what we promise, We work directly with your leadership team to establish objectives, and deliver guaranteed results!</p>
+          <p>Our clientele have one thing in common, they grew tired of countless agencies over promising and under delivering, The Gurus have demonstrated Quality, Commitment, and Results, we have increased brand awareness, grew loyal followers, and above all generated ROI for all our clients.</p>
+          <h2 className="major">About Mardini:</h2>
+          <p>Experienced Digital Branding, Marketing, Web, and Tech Guru with a demonstrated history of working in the marketing and advertising industry. Skilled in Search Engine Optimization (SEO), Marketing Management, e-Commerce, and All Social Media Platforms, with a Bachelor degree in IT.
+
+          A Business and Marketing professional with a Cambridge UK Diploma in Business and Marketing.
+          </p>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
+          <p>          hello@gurus.ae<br/>
+          +971552825417<br/>
+          +97144566685<br/>
+          The Springs, Dubai, United Arab Emirates</p>
+
+
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
